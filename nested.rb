@@ -35,10 +35,9 @@ programmer_hash =
           :languages => ["C"]
         }
      }
-    
-     programmer_hash[:known_for]
-	# What combination of keys would you use to return the value of the :known_for key of :alan_kay?
+     programmer_hash[:alan_kay, :known_for]
 end
+	# What combination of keys would you use to return the value of the :known_for key of :alan_kay?
 
 def dennis_ritchies_language
 	programmer_hash = 
