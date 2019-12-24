@@ -35,8 +35,8 @@ programmer_hash =
           :languages => ["C"]
         }
      }
-     alankay = programmer_hash[:alan_kay]
-     programmer_hash[]
+     alankay = {:known_for => "Object Orientation"}
+     programmer_hash[alankay]
 end
 	# What combination of keys would you use to return the value of the :known_for key of :alan_kay?
 
